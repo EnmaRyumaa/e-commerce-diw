@@ -145,7 +145,18 @@
     width: 100%;
     display:flex;
     justify-content: space-between;
+    
 }
+
+@media (max-width: 700px)
+    {   
+        .card-box{
+            display:flex;
+            flex-direction: column;
+            width: 100%;
+        }
+      
+    }
 
 .infobuy-sty{
     display:grid;
